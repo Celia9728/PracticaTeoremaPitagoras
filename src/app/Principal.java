@@ -10,9 +10,11 @@ public class Principal {
 
 		double area1 = t1.area();
 		double perimetro1 = t1.perimetro();
+		double hipotenusa = t1.hipotenusa();
 		
 		double area2 = t2.area();
 		double perimetro2 = t2.perimetro();
+		double hipotenusa2 = t2.hipotenusa();
 
 	}
 }

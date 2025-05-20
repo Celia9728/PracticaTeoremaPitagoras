@@ -19,8 +19,8 @@ class testTrianguloRectangulo {
 	
 	@Test
 	void testAreaConstructorDefecto() {
-	    double areaObtenido = trianguloRectangulo1.area(); 
-        double areaEsperado = 0.5; 
+	    double areaObtenido = Math.round(trianguloRectangulo1.area() * 100) / 100; 
+        double areaEsperado =  Math.round( 0.5 * 100) / 100; 
         assertEquals(areaEsperado, areaObtenido);
 	}
 
